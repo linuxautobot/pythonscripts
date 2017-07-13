@@ -25,9 +25,9 @@ class ssh:
                     print(str(alldata))
         else:
             print("Connection not opened.")
-conn = ssh("localhost","sanjay",'redhat')
-conn2 = ssh("localhost","sanjay",'redhat')
-conn3 = ssh("localhost","sanjay",'redhat')
+conn = ssh("localhost","linuxautobot",'redhat')
+conn2 = ssh("localhost","linuxautobot",'redhat')
+conn3 = ssh("localhost","linuxautobot",'redhat')
 
 print ("to exit please type exit")
 
